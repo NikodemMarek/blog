@@ -1,1 +1,28 @@
-{{ content }}
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+		<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+		<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+	</head>
+	<body>
+		<div class="site-shell">
+			<header class="site-header">
+				<div class="brand-row">
+					<h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+				</div>
+				<p class="site-tagline">{{ site.description }}</p>
+			</header>
+
+			<main class="site-main" aria-label="Main content">
+				{{ content }}
+			</main>
+
+			<footer class="site-footer">
+				<p>Built with Jekyll • {{ "now" | date: "%Y" }}</p>
+			</footer>
+		</div>
+	</body>
+</html>

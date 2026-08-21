@@ -1,19 +1,32 @@
 ---
 layout: default
 ---
-<div>
+<section>
+  <h1 class="home-title">Posts</h1>
+  <p class="home-subtitle">Projects, experiments, and ideas.</p>
 
-  <h1>Posts</h1>
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <span>{{ post.date | date: "%Y/%m/%d" }}</span>
+  {% if site.posts and site.posts.size > 0 %}
+    <div class="post-grid">
+      {% for post in site.posts %}
+        <article class="post-card">
+          <p class="post-card-date">
+            {{ post.date | date: "%Y/%m/%d" }}
+          </p>
+          <h2 class="post-card-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
 
-        <h2>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-</div>
+          {% if post.excerpt %}
+            <p class="post-card-excerpt">
+              {{ post.excerpt | strip_html | truncate: 120 }}
+            </p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="empty-state">
+      No posts? Yeah, something is broken. You can let me know.
+    </p>
+  {% endif %}
+</section>

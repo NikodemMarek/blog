@@ -1,5 +1,20 @@
 ---
 layout: default
 ---
+<article>
+	<header>
+		<p class="post-kicker">Post</p>
+		<h1 class="post-title">{{ page.title }}</h1>
+		<p class="post-meta">
+			Published {{ page.date | date: "%B %d, %Y" }}
+			{% if page.categories and page.categories != empty %} • {{ page.categories | join: ", " }}{% endif %}
+		</p>
+	</header>
 
-{{ content }}
+	{{ content }}
+
+	<hr>
+	<p class="post-backlink">
+		<a href="{{ '/' | relative_url }}">All posts</a>
+	</p>
+</article>
