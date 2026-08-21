@@ -50,7 +50,7 @@ Cost:
 
 Case: Terramaster is pretty much the only sensible option, as it is budget-friendly enough, and it is possible to install another OS on it easily (according to The Internet). Costs ~2600 PLN. It also comes with some extra compute, so I can expand my Kubernetes cluster onto it, and benefit from the closeness of the data.
 
-HDD drives: A new 10TB Seagate IronWolf costs ~1800 PLN; however, recertified can be bought for ~1300 PLN, and I'm fine with taking the small risk. For redundancy, I need at least 2x, so around ~2600 PLN. While searching for the drives, I found 18TB Seagate IronWolf Pro drives for ~2200 PLN each, and decided to go with them for a bit of future-proofing. So the final cost was ~4400 PLN.
+HDD drives: A new 10TB Seagate IronWolf costs ~1800 PLN, however, recertified can be bought for ~1300 PLN, and I'm fine with taking the small risk. For redundancy, I need at least 2x, so around ~2600 PLN. While searching for the drives, I found 18TB Seagate IronWolf Pro drives for ~2200 PLN each, and decided to go with them for a bit of future-proofing. So the final cost was ~4400 PLN.
 
 SSD drives: I need at least one SSD to hold the OS, 512GB would probably be enough, but since I'm buying it either way, some extra fast storage may come in handy. Samsung NVMe M.2 990 PRO 1TB is the chosen model, because I found it on a discount, for ~750 PLN.
 
@@ -112,7 +112,7 @@ Cons:
 -   Limiting.
 -   "You'll own nothing and be happy".
 
-Decision: This was a good option; I could just do with some cheap cloud storage (<1TB), but this comes with all the disadvantages of cloud storage, and I'm already near 1TB of data, with no idea what to get rid of, and I've just started my data hoarding spree. While this makes sense financially, it is very limiting, and not future-proof.
+Decision: This was a good option, I could just do with some cheap cloud storage (<1TB), but this comes with all the disadvantages of cloud storage, and I'm already near 1TB of data, with no idea what to get rid of, and I've just started my data hoarding spree. While this makes sense financially, it is very limiting, and not future-proof.
 
 5.  Fix the old setup.
 
@@ -138,7 +138,7 @@ Decision: While this is viable, and I could get an external HDD, or an HDD with 
 
 ## The hardware
 
-I have chosen Terramaster F4-425 Pro N305 with 8GB RAM; it satisfied my needs of being compatible with software other than the stock version, and it has 4 bays for HDDs, 2 of which I will fill immediately. It also has 3 bays for M.2 SSDs. Since I have no need for extremely fast storage (I'm looking at you, AI datacenters), I'll just fill one bay. The 16GB RAM, N350 version was tempting, however, RAM is pricey, and I can always upgrade later. Besides satisfying the requirements, it was on a 20% discount.
+I have chosen Terramaster F4-425 Pro N305 with 8GB RAM, it satisfied my needs of being compatible with software other than the stock version, and it has 4 bays for HDDs, 2 of which I will fill immediately. It also has 3 bays for M.2 SSDs. Since I have no need for extremely fast storage (I'm looking at you, AI datacenters), I'll just fill one bay. The 16GB RAM, N350 version was tempting, however, RAM is pricey, and I can always upgrade later. Besides satisfying the requirements, it was on a 20% discount.
 
 For the HDDs, I decided to go with Seagate IronWolf Pro series, as it is recommended for home NAS solutions, with a capacity of 18TB per drive. I was also considering Seagate Exos, as the price per terabyte is very cheap, especially for recertified drives, but honestly, I won't need more than 20TB for a while, and in the meantime, I could find some good discount for more NAS-friendly drives.
 
@@ -164,4 +164,4 @@ TBA: The setup has been running for just a few days, so it is hard to provide an
 
 ## Final thoughts
 
-While a storage system does not seem that complicated at a glance, there is a lot of consideration to put into it. While it is definitely viable to reuse old, random hardware, it is definitely easier to use dedicated, purpose-built hardware. It is probably overkill and more of a hassle than a benefit for most people to have their own NAS; I was really considering going with cloud storage, and I would describe myself as tech-savvy and very experienced with dealing with various problems from this domain. So there is not really any reason for me to recommend anyone to go this route, besides data privacy and ownership, which barely anyone cares about nowadays anyway.
+While a storage system does not seem that complicated at a glance, there is a lot of consideration to put into it. While it is definitely viable to reuse old, random hardware, it is definitely easier to use dedicated, purpose-built hardware. It is probably overkill and more of a hassle than a benefit for most people to have their own NAS. I was really considering going with cloud storage, and I would describe myself as tech-savvy and very experienced with dealing with various problems from this domain. So there is not really any reason for me to recommend anyone to go this route, besides data privacy and ownership, which barely anyone cares about nowadays anyway.
