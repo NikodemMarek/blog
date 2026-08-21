@@ -123,6 +123,26 @@ blockquote {
 	color: var(--text);
 }
 
+ol,
+ul {
+	margin: 1rem 0 1.5rem;
+	padding-left: 1.5rem;
+}
+
+li {
+	margin: 0.45rem 0;
+	padding-left: 0.35rem;
+}
+
+ol li {
+	padding-left: 0.25rem;
+}
+
+ol > li + li,
+ul > li + li {
+	margin-top: 0.75rem;
+}
+
 blockquote {
 	margin: 1.4rem 0;
 	padding: 0.25rem 1rem;
