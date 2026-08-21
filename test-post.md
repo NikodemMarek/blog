@@ -1,3 +1,4 @@
+---
 layout: page
 title: "Test post"
 permalink: /test-post
