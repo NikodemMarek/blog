@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: "Test post"
-permalink: /test-post
+date:   2026-08-21
+categories: test
 ---
 # Test post
 
