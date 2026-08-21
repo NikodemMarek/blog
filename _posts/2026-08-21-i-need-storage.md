@@ -4,8 +4,6 @@ title: "I need storage"
 date: 2026-08-21
 categories: self-hosting hardware software thoughts project
 ---
-# I need storage
-
 I've been moving to self-hosting most of the stuff I use daily, over to my own infrastructure. My current storage solution had several issues. So I decided that I need (want) a new bulk data storage. I've tried to document my whole thought and execution process here.
 
 ## Issues with the current setup
