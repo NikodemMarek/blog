@@ -126,16 +126,17 @@ blockquote {
 ol,
 ul {
 	margin: 1rem 0 1.5rem;
-	padding-left: 1.5rem;
+	padding-left: 1.8rem;
+	list-style-position: outside;
 }
 
 li {
-	margin: 0.45rem 0;
-	padding-left: 0.35rem;
+	margin: 0.35rem 0;
+	padding-left: 0;
 }
 
-ol li {
-	padding-left: 0.25rem;
+li > p {
+	margin: 0.2rem 0;
 }
 
 ol > li + li,
